@@ -31,9 +31,9 @@ namespace MiniShop.Platform.Api.Config
 
         public string AuthenticationAuthority { get; set; }
 
-        public string AuthenticationMiniShopAdminApiName { get; set; }
+        public string AuthenticationMiniShopPlatformApiName { get; set; }
 
-        public string AuthenticationMiniShopAdminApiSecret { get; set; }
+        public string AuthenticationMiniShopPlatformApiSecret { get; set; }
 
         public static BasicSetting Setting { get; set; } = new BasicSetting();
     }
